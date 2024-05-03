@@ -48,7 +48,7 @@ VALUES (401, '육아휴직');
 INSERT INTO leave_of_absence_types (leave_of_absence_code, leave_of_absence_name)
 VALUES (402, '질병휴직');
 
---사원정보
+-- 사원정보
 INSERT INTO employees (employee_id, employee_name, email, phone, birth_date, status, hire_date, position_code, department_code, manager_id, employment_type_code) 
 VALUES (1, '유진우', 'jinwooyu@gmail.com', '010-1111-2222', '1990-08-14', '재직', '2024-01-01', 201, 101, 1, 10);
 INSERT INTO employees (employee_id, employee_name, email, phone, birth_date, status, hire_date, position_code, department_code, manager_id, employment_type_code) 
