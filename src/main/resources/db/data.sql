@@ -65,8 +65,5 @@ VALUES (4, '2024-01-20', '2024-01-30', 204, 104, 10, '퇴사');
 -- 출퇴근기록
 INSERT INTO attendance_record (employee_id, go_to_work_datetime, get_off_work_datetime, work_time)
 VALUES (1, '2023-01-01 09:00:00', '2023-01-01 18:00:00', timediff('2023-01-01 18:00:00', '2023-01-01 09:00:00'));
-commit;
-
-
 
 COMMIT;
